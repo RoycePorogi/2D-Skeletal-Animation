@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bddrx15cdi4gf"
-path="res://.godot/imported/player parts.png-084704504526be43d90f75f725f8e9b0.ctex"
+uid="uid://cq2cni5upyfpu"
+path="res://.godot/imported/player right arm.png-5f2acefb6c877e51cce75be5e7fa5aff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://player parts.png"
-dest_files=["res://.godot/imported/player parts.png-084704504526be43d90f75f725f8e9b0.ctex"]
+source_file="res://body parts/player right arm.png"
+dest_files=["res://.godot/imported/player right arm.png-5f2acefb6c877e51cce75be5e7fa5aff.ctex"]
 
 [params]
 

@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://clny5xpi4d7ov"]
 
-[ext_resource type="Texture2D" uid="uid://fxyjigkl8tao" path="res://player left arm.png" id="1_1jxqw"]
+[ext_resource type="Texture2D" uid="uid://fxyjigkl8tao" path="res://body parts/player left arm.png" id="1_1jxqw"]
 [ext_resource type="Script" uid="uid://dalk80aq4dsc5" path="res://player.gd" id="1_dw050"]
-[ext_resource type="Texture2D" uid="uid://cowl3434k20no" path="res://player head.png" id="2_dw050"]
-[ext_resource type="Texture2D" uid="uid://b728r16btqtfd" path="res://player left leg.png" id="3_b26j0"]
-[ext_resource type="Texture2D" uid="uid://dv8jbix5fbshm" path="res://player right leg.png" id="4_n7ghd"]
-[ext_resource type="Texture2D" uid="uid://yweo8ocx1twy" path="res://player torso.png" id="5_nvl01"]
-[ext_resource type="Texture2D" uid="uid://cq2cni5upyfpu" path="res://player right arm.png" id="6_ivps1"]
-[ext_resource type="Texture2D" uid="uid://8r4tpnbkpdsa" path="res://player wing.png" id="7_urp6f"]
+[ext_resource type="Texture2D" uid="uid://cowl3434k20no" path="res://body parts/player head.png" id="2_dw050"]
+[ext_resource type="Texture2D" uid="uid://b728r16btqtfd" path="res://body parts/player left leg.png" id="3_b26j0"]
+[ext_resource type="Texture2D" uid="uid://dv8jbix5fbshm" path="res://body parts/player right leg.png" id="4_n7ghd"]
+[ext_resource type="Texture2D" uid="uid://yweo8ocx1twy" path="res://body parts/player torso.png" id="5_nvl01"]
+[ext_resource type="Texture2D" uid="uid://cq2cni5upyfpu" path="res://body parts/player right arm.png" id="6_ivps1"]
+[ext_resource type="Texture2D" uid="uid://8r4tpnbkpdsa" path="res://body parts/player wing.png" id="7_urp6f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bwjto"]
 size = Vector2(17.173641, 49.93206)
@@ -536,6 +536,7 @@ remote_path = NodePath("../../../../parts/left wing")
 [node name="right wing" type="Bone2D" parent="Visual/Skeleton2D/torso" unique_id=935850404]
 position = Vector2(-14.174119, -9.751665)
 rotation = -0.08446224
+scale = Vector2(0.99999964, 0.99999964)
 rest = Transform2D(1, 0, 0, 1, -13.227162, -12.768828)
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="Visual/Skeleton2D/torso/right wing" unique_id=1327834820]
@@ -570,14 +571,14 @@ scale = Vector2(1.0000001, 1.0000001)
 texture = ExtResource("2_dw050")
 
 [node name="PlayerLeftLeg" type="Sprite2D" parent="Visual/parts" unique_id=1813921868]
-position = Vector2(383.90894, 342.7696)
-rotation = -0.056521766
+position = Vector2(387.8228, 342.17227)
+rotation = -0.34253073
 scale = Vector2(1.0000002, 1.0000002)
 texture = ExtResource("3_b26j0")
 
 [node name="PlayerRightLeg" type="Sprite2D" parent="Visual/parts" unique_id=1494469494]
-position = Vector2(381.91748, 343.78644)
-rotation = 0.009183696
+position = Vector2(386.77014, 343.7125)
+rotation = -0.41446292
 scale = Vector2(1.0000001, 1.0000001)
 texture = ExtResource("4_n7ghd")
 
@@ -592,13 +593,13 @@ scale = Vector2(1.0000001, 1.0000001)
 texture = ExtResource("6_ivps1")
 
 [node name="left wing" type="Sprite2D" parent="Visual/parts" unique_id=1730383513]
-position = Vector2(372.68973, 316.86343)
-rotation = 0.009183696
+position = Vector2(373.66437, 313.85507)
+rotation = 0.17950611
 scale = Vector2(1.0000001, 1.0000001)
 texture = ExtResource("7_urp6f")
 
 [node name="right wing" type="Sprite2D" parent="Visual/parts" unique_id=1597270768]
-position = Vector2(372.67285, 314.8635)
-rotation = 0.009183696
-scale = Vector2(1.0000001, 1.0000001)
+position = Vector2(371.6982, 317.87183)
+rotation = -0.07527856
+scale = Vector2(0.9999998, 0.9999998)
 texture = ExtResource("7_urp6f")
